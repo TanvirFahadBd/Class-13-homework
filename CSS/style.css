@@ -36,6 +36,7 @@ a {
 
 nav {
     background: black;
+    position: sticky; top: 0; z-index: 1000;
 }
 
 nav .conteinetr .navigation-flex {
@@ -570,13 +571,11 @@ nav .conteinetr .navigation-flex .end-icons {
     align-items: center;
     padding: 0px 30px 0px 30px;
     gap: 10px;
-
+    outline: none;
     width: 530px;
     height: 68px;
-
     font-size: 18px;
     font-weight: 600;
-
     border: 1px solid #000000;
     filter: drop-shadow(0px 4px 14px rgba(255, 255, 255, 0.15));
     border-radius: 40px;
