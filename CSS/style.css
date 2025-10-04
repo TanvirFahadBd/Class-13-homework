@@ -1,0 +1,677 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --white: #fff;
+    --black: #000;
+    --gray: rgb(87, 87, 87);
+    --beguni: rebeccapurple;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    background-color: var(--black);
+    font-family: "Inter", sans-serif;
+    color: var(--white);
+}
+
+li {
+    list-style: none;
+    color: var(--white);
+}
+
+a {
+    text-decoration: none;
+}
+
+.conteinetr {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/*================================== navigation edit============================= */
+
+nav {
+    background: black;
+}
+
+nav .conteinetr .navigation-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 85px;
+    padding-right: 85px;
+    gap: 298px;
+    padding-top: 16px;
+    padding-bottom: 12px;
+}
+
+nav .conteinetr .navigation-flex .logo {}
+
+
+nav .conteinetr .navigation-flex .main-menu ul {
+    display: flex;
+    gap: 50px;
+}
+
+nav .conteinetr .navigation-flex .main-menu ul li {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+nav .conteinetr .navigation-flex .main-menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+nav .conteinetr .navigation-flex .end-icons {
+    display: flex;
+    gap: 30px;
+}
+
+/*================================== navigation edit end============================= */
+
+
+/*================================== section 0ne edit end============================= */
+
+
+.first-section {}
+
+.first-section .background {
+    background: url(../images/bg-burger.png);
+    width: 100%;
+    height: 818px;
+}
+
+.first-section .background .first-texts {
+    max-width: 652px;
+    padding: 108px 0px 0px 180px;
+}
+
+.first-section .background .first-texts .h1andpera {
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.first-section .background .first-texts .h1andpera h1 span {
+    display: block;
+}
+
+.first-section .background .first-texts .h1andpera h1 {
+    font-size: 66px;
+    font-weight: 700;
+    line-height: 96px;
+}
+
+.first-section .background .first-texts .h1andpera p {
+    font-size: 20;
+    line-height: 30px;
+}
+
+.first-section .background .first-texts .first-atag {}
+
+.first-section .background .first-texts .first-atag a {
+    padding: 20px 50px;
+    background: var(--white);
+    border-radius: 1000px;
+    color: var(--black);
+    font-weight: 600;
+    transition: all ease 0.3s;
+}
+
+.first-section .background .first-texts .first-atag a:hover {
+    background: var(--black);
+    color: var(--white);
+}
+
+/* ============= section 0ne end here -================================== */
+.width-for-div {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+#second-section {
+    padding-top: 150px;
+}
+
+#second-section .second-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+#second-section .width-for-div .second-flex .second-texts {
+    max-width: 810px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#second-section .width-for-div .second-flex .second-texts h1 {
+
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 70px;
+    text-align: center;
+
+    color: var(--white);
+
+}
+
+#second-section .width-for-div .second-flex .second-texts p {
+
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: center;
+
+    color: var(--white);
+
+}
+
+#second-section .width-for-div .peragraph-image {
+    display: flex;
+    gap: 87px;
+}
+
+#second-section .width-for-div .peragraph-image p {
+    max-width: 513px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--white);
+
+
+}
+
+#second-section .width-for-div .peragraph-image .coolink {
+    width: 570px;
+    background: url(../images/baburchi.png);
+    height: 430px;
+}
+
+#second-section .width-for-div .peragraph-image .coolink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#second-section .width-for-div .peragraph-image .coolink img {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+/* ============= section 0ne end here -================================== */
+
+
+
+
+/* ============= section three start here -================================== */
+
+.section-three {
+    padding-top: 150px;
+}
+
+.section-three-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.section-three-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.header-three {
+    display: flex;
+    justify-content: center;
+}
+
+.header-three h1 {}
+
+.ul-flex-three {
+    width: 100%;
+}
+
+.ul-flex-three ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 104px;
+}
+
+.ul-flex-three ul li {}
+
+.ul-flex-three ul li a {
+    padding: 12px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 12px;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+}
+
+.ul-flex-three ul li a:hover {
+    padding: 12px;
+    border-bottom: 2px solid;
+    border-radius: 12px;
+    color: var(--white);
+}
+
+.grid-conteiner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px 30px;
+}
+
+.food-box {
+    background: rebeccapurple;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.food-box:hover {
+    transform: scale(1.1);
+}
+
+.images-threE {
+    display: flex;
+    justify-content: center;
+}
+
+.images-threE img {}
+
+.nananddic {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.three-texts {}
+
+.three-texts h5 {
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    color: var(--white);
+}
+
+.three-texts p {
+
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: var(--white);
+
+}
+
+.flex-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-card:first-child {
+    height: 21px;
+}
+
+.flex-card:last-child {}
+
+.see-all {
+    display: flex;
+    justify-content: center;
+}
+
+.see-all a {
+    padding: 20px 54px;
+    background: var(--white);
+    border-radius: 1000px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    transition: all ease 0.3s;
+}
+
+.see-all a:hover {
+    background: var(--beguni);
+    color: var(--white);
+}
+
+
+/* ============= section three end here -================================== */
+
+
+
+
+/* ============= section four start here -================================== */
+
+
+#section-four {
+    padding-top: 150px;
+}
+
+#section-four .section-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+#section-four .section-four .sfourh1 {}
+
+#section-four .section-four .sfourh1 h1 {}
+
+.twom {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.twom .width-for-div {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.twom .width-for-div h1 {
+    text-align: CENTER;
+}
+
+.twom .width-for-div p {}
+
+
+/* ============= section four end here -================================== */
+
+/* ============= section five end here -================================== */
+#section-five {
+    padding-top: 150px;
+}
+
+.five-h1 {
+    max-width: 919px;
+}
+
+#section-five .section-five-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 60px;
+}
+
+#section-five .section-five-div h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.five-p {}
+
+#section-five .section-five-div p {
+    text-align: center;
+}
+
+.section-five-atag {
+    text-align: center;
+}
+
+.section-five-atag a {
+    background: white;
+    padding: 20px 50px;
+    border-radius: 1000px;
+    transition: all ease 0.3s;
+}
+
+.section-five-atag a:hover {
+    background-color: var(--gray);
+    color: var(--white);
+}
+
+
+
+
+
+
+
+/* ============= section five end here -================================== */
+
+
+/* ============= section six start here -================================== */
+
+.section-six {
+    padding-top: 150px;
+}
+
+.section-six .width-for-div {}
+
+.section-six .width-for-div .section-six-h1 {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.section-six .width-for-div .section-six-h1 h1 {}
+
+.section-six-grids {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.section-six-grids .section-six-grid {
+    background: gray;
+    width: 290px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 12px;
+    transition: all ease 0.3s;
+}
+
+.section-six-grids .section-six-grid:hover {
+    transform: scale(1.1);
+}
+
+.section-six-grids .section-six-grid .avatar {
+    display: flex;
+    gap: 12px;
+}
+
+.section-six-grids .section-six-grid .avatar img {}
+
+.section-six-grids .section-six-grid h5 {}
+
+.section-six-grids .section-six-grid ul {
+    display: flex;
+}
+
+.section-six-grids .section-six-grid ul li {}
+
+.section-six-grids .section-six-grid ul li img {}
+
+.quotation {
+    position: relative;
+}
+
+.quotation div {
+    position: absolute;
+    background: white;
+    height: 2px;
+    width: 152px;
+    top: 14px;
+    left: 22px;
+    opacity: 20%;
+}
+
+.quotation .img {}
+
+
+.pera-section {}
+
+.pera-section p {}
+
+/* ============= section six end here -================================== */
+
+/* ============= section seven start here -================================== */
+#section-seven {
+    padding-top: 150px;
+}
+
+#section-seven .section-seven-bg {
+    background: var(--white);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+    gap: 30px;
+    margin-right: -150px;
+}
+
+#section-seven .section-seven-bg .form {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+#section-seven .section-seven-bg .form input {
+    /* CTA Button */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 400px 20px 30px;
+    gap: 10px;
+
+    width: 530px;
+    height: 68px;
+
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 14px rgba(255, 255, 255, 0.15));
+    border-radius: 40px;
+}
+
+.section-secen-atag {}
+
+.section-secen-atag a {}
+
+
+
+/* ============= section seven end here -================================== */
+
+
+/* ============= section eight start here -================================= */
+#section-eight {
+    padding-top: 150px;
+}
+
+#section-eight .section-eight-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 142px;
+}
+
+.for-h1-seven h1 {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 90px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#section-eight .section-eight-flex .section-eight-texts {
+    max-width: 542px;
+}
+
+iframe {
+    border-radius: 12px;
+}
+
+#section-eight .section-eight-flex .section-eight-texts h1 {}
+
+#section-eight .section-eight-flex .section-eight-texts p {}
+
+#section-eight .section-eight-flex .section-eight-texts .eight-a {}
+
+#section-eight .section-eight-flex .section-eight-texts .eight-a a {}
+
+
+/* ============= section eight end here -================================== */
+
+/* ============= section footer starthere -================================== */
+
+footer {
+    padding-top: 150px;
+}
+
+footer .pura-footer {
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+
+}
+
+
+footer .pura-footer .ourpoduct {}
+
+footer .pura-footer .ourpoduct .box-one {
+    padding-bottom: 100px;
+}
+
+footer .pura-footer .ourpoduct .box-one h1 {}
+
+footer .pura-footer .ourpoduct .box-one p {}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+hr {}
+
+.icons .images {
+    padding-top: 28px;
+    display: flex;
+    gap: 10px;
+}
+
+.icons h5 {}
+
+
+/* ============= section footer end here -================================== */
