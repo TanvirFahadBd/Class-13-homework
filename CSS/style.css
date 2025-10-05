@@ -715,7 +715,7 @@ footer .pura-footer .ourpoduct .box-one p {
     align-items: center;
 }
 
-hr {}
+hr {background: red;}
 
 .icons .images {
     padding-top: 28px;
